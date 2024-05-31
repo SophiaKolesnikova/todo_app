@@ -1,0 +1,44 @@
+.inputTask {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  align-items: center;
+  height: 40px;
+  gap: 40px;
+
+  &Label {
+    display: flex;
+    align-items: center;
+  }
+
+  &Checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  &Title {
+    font-weight: normal;
+    padding: 5px;
+    line-height: 1.2;
+    width: 100%;
+  }
+
+  &Action {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  &Edit {
+    background: none;
+  }
+
+  &Info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 300px 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+  }
+}
