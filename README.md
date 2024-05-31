@@ -25,5 +25,6 @@ ________________________________________________________________________________
 - Install dependencies using `npm i`.
 - Add prettier package on your IDE: `~\todo_app\node_modules\prettier`
 - Run `npm run dev`. Frontend will open at `http://localhost:3000`/.
+- Data for sign in you can find  `~\todo_app\data\users.ts`
 ______________________________________________________________________________________________________
 
